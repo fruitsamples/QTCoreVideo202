@@ -50,8 +50,8 @@ typedef struct OpenGLTexture2DData *OpenGLTexture2DDataRef;
 
 @interface OpenGLTexture2D : NSObject
 {
-    @private
-        OpenGLTexture2DDataRef  mpTexture2D;
+@private
+    OpenGLTexture2DDataRef  mpTexture2D;
 } // OpenGLTexture2D
 
 - (id) initTexture2DWithSize:(const NSSize *)theSize

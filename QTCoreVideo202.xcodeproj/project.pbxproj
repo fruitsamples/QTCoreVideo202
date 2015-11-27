@@ -55,7 +55,6 @@
 		36317FE3138C442300BCA652 /* QTVisualContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 36317FAF138C442300BCA652 /* QTVisualContext.m */; };
 		36317FE4138C442300BCA652 /* CVOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36317FB3138C442300BCA652 /* CVOpenGLView.m */; };
 		36317FE5138C442300BCA652 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36317FB6138C442300BCA652 /* OpenGLView.m */; };
-		36419646135398E600FC3FF2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.xib */; };
 		364196621353A18B00FC3FF2 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364196611353A18B00FC3FF2 /* IOSurface.framework */; };
 		366BE28F13705DC4003BFD6B /* QTCVOpenGLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366BE24113705DC4003BFD6B /* QTCVOpenGLController.m */; };
 		366BE29113705DC4003BFD6B /* QTCVOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 366BE24813705DC4003BFD6B /* QTCVOpenGLView.m */; };
@@ -1085,6 +1084,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QTCoreVideo202" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -1112,7 +1114,6 @@
 				360D48740D8B41F700DD3492 /* icon.icns in Resources */,
 				360D48790D8B423100DD3492 /* ReadMe.rtfd in Resources */,
 				360D48BF0D8B431400DD3492 /* Credits.rtf in Resources */,
-				36419646135398E600FC3FF2 /* MainMenu.xib in Resources */,
 				36317FD6138C442300BCA652 /* Teapot.plist in Resources */,
 				36317FDA138C442300BCA652 /* PixelFormat.plist in Resources */,
 			);
@@ -1207,7 +1208,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1254,7 +1254,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				PREBINDING = NO;
 				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
@@ -1269,7 +1268,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				PREBINDING = NO;
 				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};

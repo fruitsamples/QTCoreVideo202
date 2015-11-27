@@ -56,8 +56,8 @@ typedef struct CVGLImagebufferData *CVGLImagebufferDataRef;
 
 @interface CVGLImagebuffer : NSObject
 {
-@private
-    CVGLImagebufferDataRef mpImagebuffer;
+    @private
+        CVGLImagebufferDataRef mpImagebuffer;
 } // CVGLImagebuffer
 
 - (id) initImagebufferWithSize:(const NSSize *)theSize;

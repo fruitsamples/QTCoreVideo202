@@ -56,9 +56,9 @@
 
 @interface CVGLTexture2D : OpenGLTexture2D<CVGLProtocol>
 {
-    @private
-        CVPixelBufferRef  pixels;
-        IOSurfaceRef      surface;
+@private
+    CVPixelBufferRef  pixels;
+    IOSurfaceRef      surface;
 } // CVGLTexture2D
 
 - (id) initTexture2DWithSize:(const NSSize *)theSize
